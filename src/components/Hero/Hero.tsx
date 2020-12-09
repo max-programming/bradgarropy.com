@@ -1,5 +1,5 @@
 import {FC} from "react"
-import Img from "gatsby-image"
+import Img, {FluidObject} from "gatsby-image"
 import styled from "styled-components"
 import {graphql, useStaticQuery} from "gatsby"
 
@@ -16,7 +16,11 @@ const HeroWrapper = styled.div`
     }
 `
 
-const HeroImage = styled(Img)`
+type HeroImageProps = {
+    fluid: FluidObject
+}
+
+const HeroImage = styled(Img)<HeroImageProps>`
     width: 100%;
     max-width: 25rem;
 `
