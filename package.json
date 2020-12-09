@@ -30,7 +30,8 @@
         "netlify": "npm run test && npm run build",
         "test": "jest --passWithNoTests",
         "test:watch": "npm run test -- --watch",
-        "new": "plop"
+        "new": "plop",
+        "tsc": "tsc --noEmit"
     },
     "dependencies": {
         "@bradgarropy/gatsby-plugin-seo": "^1.0.0",
@@ -74,6 +75,7 @@
         "@testing-library/jest-dom": "^5.11.6",
         "@testing-library/react": "^11.2.2",
         "@testing-library/user-event": "^12.5.0",
+        "@types/styled-components": "^5.1.4",
         "@typescript-eslint/eslint-plugin": "^4.9.1",
         "@typescript-eslint/parser": "^4.9.1",
         "babel-eslint": "^10.1.0",

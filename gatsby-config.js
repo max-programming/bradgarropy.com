@@ -18,6 +18,9 @@ const config = {
             resolve: "gatsby-plugin-react-helmet",
         },
         {
+            resolve: "gatsby-plugin-typescript",
+        },
+        {
             resolve: "gatsby-plugin-sitemap",
         },
         {
